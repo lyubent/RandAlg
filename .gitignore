@@ -1,5 +1,11 @@
+# IntelliJ
 .idea/
 out/
 *.iml
+
+# OSX
 .DS_Store
 
+# Go binaries -- ignores everything in the go folder that isn't a .go file
+# ⚠️ Does not capture sub-dirs.
+!go/*.go
